@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Customer_Account customer_info = new(123,"Akash");
-            customer_info.PrintInfo();
+            Console.WriteLine(customer_info.PrintInfo());
         }
     }
   

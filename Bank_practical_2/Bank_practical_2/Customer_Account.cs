@@ -18,11 +18,13 @@ namespace Bank_practical_2
             customer_accountNo = acc_no;
             customer_name = c_name;
         }
-        public void PrintInfo()
+
+        /// <summary>
+        /// This method  display  information about Customer account
+        /// </summary>
+        public string PrintInfo()
         {
-            Console.WriteLine("Bank Name:" + bank_name);
-            Console.WriteLine("Customer Name:" + customer_name);
-            Console.WriteLine("cusomer Account no :" + customer_accountNo);
+            return ($"Bank Name: {bank_name}\nCustomer Name: {customer_name}\ncusomer Account no :  {customer_accountNo}");
 
         }
     }
